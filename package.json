@@ -1,0 +1,25 @@
+{
+  "name": "JS-Expert-Week",
+  "version": "1.0.0",
+  "description": "Repoitório a ser utilizado durante a [Semana JS Expert](https://javascriptexpert.com.br/) com [Erick Wendel](https://github.com/ErickWendel)",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawallon/JS-Expert-Week.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rawallon/JS-Expert-Week/issues"
+  },
+  "homepage": "https://github.com/Rawallon/JS-Expert-Week#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
